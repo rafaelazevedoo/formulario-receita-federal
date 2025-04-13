@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação de Serviços</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="nav-superior">
+        <div class="nav-superior-container">
+            <div class="logo">
+                <a href="">
+                    <img src="https://i.pinimg.com/736x/69/27/95/692795bd1ce94265e2cb349793bca464.jpg" alt="Logo">
+                </a>
+            </div>
+            <div class="nav-superior-texto">
+                <h1>Solicitação de Serviços</h1>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Solicitação de Passaporte</a></li>
+            <li><a href="#">Agendamento de Atendimento</a></li>
+            <li><a href="#">Outros Serviços</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+     
+        <h2>Formulário de Solicitação de Passaporte</h2>
+        <form>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Nome Completo">
+
+            <label for="filiacao1">Filiação 1:</label>
+            <input type="text" id="filiacao1" name="filiacao1" required placeholder="Nome do Pai ou Responsável">
+
+            <label for="filiacao2">Filiação 2:</label>
+            <input type="text" id="filiacao2" name="filiacao2" required placeholder="Nome da Mãe ou Responsável">
+           
+            <label for="email">E-mail:</label>
+            <input type="emailid="email" name="email" required placeholder="Digite seu E-mail">
+
+            <label for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" id="dataNascimento" name="dataNascimento" required>
+
+            <label for="emancipado">Emancipado se menor:</label>
+            <select id="emancipado" name="emancipado">
+                <option value="nao">Não</option>
+                <option value="sim">Sim</option>
+            </select>
+
+            <label for="adocao">Adoção Internacional:</label>
+            <select id="adocao" name="adocao">
+                <option value="nao">Não</option>
+                <option value="sim">Sim</option>
+            </select>
+
+            <label for="raca">Raça ou Cor:</label>
+            <input type="text" id="raca" name="raca" required placeholder="Digite sua Raça ou Cor">
+
+            <label for="estadoCivil">Estado civil:</label>
+            <select id="estadoCivil" name="estadoCivil">
+                <option value="#">Casado(a)</option>
+                <option value="#">Solteiro(a)</option>
+                <option value="#">Divorciado(a)</option>
+                <option value="#">Viuvo(a)</option>
+            </select>
+
+            <label for="nacionalidade">Nacionalidade:</label>
+            <input type="text" id="nacionalidade" name="nacionalidade" placeholder="Nacionalidade" required>
+
+            <label for="localNascimento">Local de Nascimento:</label>
+            <input type="text" id="localNascimento" name="localNascimento" placeholder="Local de Nascimento" required>
+
+
+            <div class="cidade-uf-container">
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade">
+                </div>
+
+                <div>
+                    <label for="uf">UF:</label>
+                    <input type="text" id="uf" name="uf" maxlength="2">
+                </div>
+            </div>
+
+            <label for="genero">Mudança de Gênero:</label>
+            <select id="genero" name="genero">
+                <option value="nao">Não</option>
+                <option value="sim">Sim</option>
+            </select>
+
+            <label for="motivo">Motivo:</label>
+            <textarea id="motivo" name="motivo"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
