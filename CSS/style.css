@@ -1,0 +1,120 @@
+@import "reset.css";
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #bd6a97;
+
+}
+
+img {
+    height:10%;
+    width: 10%;
+    padding-top: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+
+}
+
+.nav-superior-texto {
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    position: relative;
+}
+
+
+nav {
+    background-color: #d387b6;
+    padding: 10px;
+  
+}
+
+h1 {
+    padding-bottom: 50px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(2, 1, 1);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #c79db4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #cc5050;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.404)
+}
+
+.nascimento-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    margin-top: 15px;
+    margin-left: 230px;
+    background-color: #80516a;
+    color: white;
+    padding: 10px;
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ad5a86
+}
+
+.cidade-uf-container {
+    display: flex;
+    gap: 30px;
+
+}
+
+.cidade-uf-container div {
+    flex: 1;
+
+}
